@@ -14,12 +14,26 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 colorscheme gruvbox
+set bg=dark
+colo murphy
 
+set nocompatible
+set showcmd
 set nu!
 set mouse=a
 set title
 set cursorline
 set encoding=utf-8
+filetype plugin indent on
+
+set tabstop=2 shiftwidth=2
+set expandtab
+set backspace=indent,eol,start
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
 
 " YOUCOMPLETEME
 
