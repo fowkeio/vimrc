@@ -8,7 +8,8 @@ sudo apt autoclean && \
 sudo apt autoremove -y
 
 # APT INSTALL
-sudo apt install -y vim git curl wget build-essential cmake vim-nox python3-dev gcc g++ make ccls
+sudo apt install -y vim git curl wget build-essential cmake vim-nox python3 python3-dev gcc g++ make ccls
+git clone https://github.com/fowkeio/vimrc
 sudo apt clean && \
 sudo apt autoclean && \
 sudo apt autoremove -y
